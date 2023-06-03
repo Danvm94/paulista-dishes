@@ -19,6 +19,8 @@
 .headericon h1, img {
     display: inline-block;
     vertical-align:middle;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .headericon h1 {
@@ -91,4 +93,28 @@ header h1{
     color:white;
     text-align: center;
     width: auto;
+}
+
+
+/* Media queries */
+/* Rule for screens max 1200px: */
+@media screen and (max-width: 1200px) {
+
+
+}
+/* Rule for screens max 950px: */
+@media screen and (max-width: 950px) {
+
+}
+/* Rule for screens max 800px: */
+@media screen and (max-width: 800px) {
+    .headericon {
+        width: 70%;
+        height: 100px;
+        vertical-align:top;
+    }
+    .headericon h1, img {
+        max-width: 50%;
+        max-height: 90%;
+    }
 }
