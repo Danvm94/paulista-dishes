@@ -8,9 +8,6 @@
 
 /*Rule for header */
 
-header{
-    background-image: url("../images/restaurantkitchen.jpg");
-}
 
 .headericon {
     display: inline-block;
@@ -30,7 +27,7 @@ header{
 
 .headernav {
     display: inline-block;
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
     width: 29%;
     height: 200px;
     vertical-align:top;
@@ -43,7 +40,7 @@ header{
 
 .headernav li {
     display: inline-block;
-    outline: 3px solid black;
+    /* outline: 3px solid black; */
     margin: 20px 20px;
     border-radius: 10%;
     font-size: 20px;
