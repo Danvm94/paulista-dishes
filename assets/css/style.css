@@ -1,0 +1,71 @@
+/* Import font "Lato" from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,900&display=swap');
+
+/* Rule for everything in the page */
+* {
+    font-family: "Lato", sans-serif;
+}
+
+/*Rule for header */
+
+header{
+    background-image: url("../images/restaurantkitchen.jpg");
+}
+
+.headericon {
+    display: inline-block;
+    
+    width: 70%;
+    height: 200px;
+    vertical-align:top;
+}
+.headericon h1, img {
+    display: inline-block;
+    vertical-align:middle;
+}
+
+.headericon h1 {
+    margin-left: 20px;
+}
+
+.headernav {
+    display: inline-block;
+    outline: 3px solid red;
+    width: 29%;
+    height: 200px;
+    vertical-align:top;
+}
+
+.headernav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.headernav li {
+    display: inline-block;
+    outline: 3px solid black;
+    margin: 20px 20px;
+    border-radius: 10%;
+    font-size: 20px;
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: inherit;
+}
+
+
+
+
+
+
+
+/* Specific rule for h1 inside header */
+header h1{
+    font-weight: 900;
+    font-style: italic;
+}
+
