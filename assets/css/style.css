@@ -60,11 +60,35 @@ header h1{
     font-style: italic;
 }
 
-.topmain {
+/* Rules for the top div after the header */
+
+@keyframes zoomImage {
+    0% {
+      background-size: 120%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+
+.topmain {  
         background: url(../images/beefstew.jpg) no-repeat center;
         background-size: cover;
         width: 95%;
         height: 400px;
         margin: auto;
-        transition: transform .2s; /* Animation */
+        border-radius: 30px;
+        animation: zoomImage 2.6s ease-in-out forwards;
+        
+}
+
+#topmain-text {
+    position:relative;
+    bottom: -90%;
+    border-radius: 30px;
+    padding: 0px 10px;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    text-align: center;
+    width: auto;
 }
