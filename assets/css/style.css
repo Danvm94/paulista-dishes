@@ -34,6 +34,7 @@
 
 /* <h1> */
 .header__title {
+    padding: 10px;
 
 }
 
@@ -51,14 +52,50 @@
 /* <li> */
 .header__item {
     display: inline-block;
+    padding: 10px;
 
 }
 
 .header__item:hover {
+    color: red;
+    
 
 }
-
 /* </header> */
+
+/* <section classs="section__top"> */
+/* <div class="section__image-div"> */
+.section__image-div {
+    display: flex;
+    justify-content: center;
+    background: url(../images/beefstew.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    width: auto;
+    animation: zoomImage 2.6s ease-in-out forwards;
+    border-radius: 20px;
+    
+}
+
+@keyframes zoomImage {
+    0% {
+      background-size: 120%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+
+/* <div class="section__text-div"> */
+.section__text-div {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    width: auto;  
+    align-self: flex-end;
+}
 
 
 /* Media queries */
@@ -75,5 +112,8 @@
 @media screen and (max-width: 800px) {
     .header {
         flex-direction: column;
+    }
+    .section__text-div{
+        align-self:center;
     }
 }
