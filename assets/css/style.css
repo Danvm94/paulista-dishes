@@ -104,6 +104,11 @@
     width: auto;  
     align-self: flex-end;
 }
+
+.section__banner{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 /* </section classs="section__top"> */
 
 /* <section class="section__about">
@@ -114,9 +119,24 @@
 }
 
 /* <p class="section__paragraph"> */
-.section__paragraph {
-    margin-left: 20px;
-    margin-right: 20px;
+
+
+.section {
+    margin-top: 50px;
+
+}
+
+.section__foods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.section__food {
+    list-style: none;
+    width: 200px;
+    height: 200px;
 }
 
 
