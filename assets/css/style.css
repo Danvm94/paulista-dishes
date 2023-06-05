@@ -11,6 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #eeee;
+    border-radius: 20px;
 }
 
 /* <div> */
@@ -27,9 +29,15 @@
 
 }
 
+.header__link:hover {
+    color: red;
+}
+
 /* <img> */
 .header__image {
-
+    width: 100px;
+    height: 100px;
+    padding: 0px 5px;
 }
 
 /* <h1> */
@@ -65,7 +73,7 @@
 
 /* <section classs="section__top"> */
 /* <div class="section__image-div"> */
-.section__image-div {
+.section__dish-image {
     display: flex;
     justify-content: center;
     background: url(../images/beefstew.jpg) no-repeat center;
@@ -86,8 +94,8 @@
     }
   }
 
-/* <div class="section__text-div"> */
-.section__text-div {
+/* <div class="section__background"> */
+.section__background {
     color: white;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
@@ -96,6 +104,21 @@
     width: auto;  
     align-self: flex-end;
 }
+/* </section classs="section__top"> */
+
+/* <section class="section__about">
+/* <h1 class="section__title"> */
+.section__title {
+    display: flex;
+    justify-content: center;
+}
+
+/* <p class="section__paragraph"> */
+.section__paragraph {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 
 
 /* Media queries */
