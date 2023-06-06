@@ -107,7 +107,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
-    grid-gap: 10% 20%;
+    grid-gap: 50px;
     align-items: center;
     padding: 0px;
 }
@@ -124,6 +124,7 @@
 }
 .top-foods__item:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    transform: scale(1.03); /* Zoom in by 20% on hover */
 }
 .top-foods__subtitle {
     position: absolute;
@@ -149,6 +150,8 @@
     width: 100%;
     height: 200px;
     border-radius: 20px;
+    transition: transform 0.3s; /* Smooth transition effect */
+    transform-origin: center center; /* Set the transform origin to the center */
     
 }
 
