@@ -14,66 +14,46 @@
     background-color: #eeee;
     border-radius: 20px;
 }
-
-/* <div> */
 .header__logo {
     display: flex;
 }
-
-/* <a> */
 .header__link{
     text-decoration: none;
     color: inherit;
     display: flex;
     align-items: center;
-
 }
-
 .header__link:hover {
     color: red;
 }
-
-/* <img> */
 .header__image {
     width: 100px;
     height: 100px;
     padding: 0px 5px;
 }
-
-/* <h1> */
 .header__title {
     padding: 10px;
-
 }
-
-/* <nav> */
 .header__menu {
     display: flex;
     align-items: center;
 }
-
-/* <ul> */
 .header__items {
     list-style: none;
 }
-
-/* <li> */
 .header__item {
     display: inline-block;
     padding: 10px;
 
 }
-
 .header__item:hover {
     color: red;
-    
-
 }
 /* </header> */
 
 /* <section classs="section__top"> */
 /* <div class="section__image-div"> */
-.section__dish-image {
+.about__image {
     display: flex;
     justify-content: center;
     background: url(../images/beefstew.jpg) no-repeat center;
@@ -95,7 +75,7 @@
   }
 
 /* <div class="section__background"> */
-.section__background {
+.about__subtitle {
     color: white;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
@@ -105,7 +85,7 @@
     align-self: flex-end;
 }
 
-.section__banner{
+.about__text{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -123,20 +103,23 @@
 
 .section {
     margin-top: 50px;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .section__foods {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    grid-gap: 10px;
     align-items: center;
     padding: 0px;
 }
 
 .section__food {
     list-style: none;
-    width: 200px;
+    
     height: 200px;
+    background-color: green;
 }
 
 
@@ -149,6 +132,10 @@
 }
 /* Rule for screens max 950px: */
 @media screen and (max-width: 950px) {
+    .section__foods {
+        
+    }
+
 
 }
 /* Rule for screens max 800px: */
