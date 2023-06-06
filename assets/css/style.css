@@ -51,9 +51,8 @@
 }
 /* </header> */
 
-/* <section classs="section__top"> */
-/* <div class="section__image-div"> */
-.about__image {
+/* <section > Introduction */
+.introduction__image {
     display: flex;
     justify-content: center;
     background: url(../images/beefstew.jpg) no-repeat center;
@@ -64,7 +63,6 @@
     border-radius: 20px;
     
 }
-
 @keyframes zoomImage {
     0% {
       background-size: 120%;
@@ -72,10 +70,8 @@
     100% {
       background-size: 100%;
     }
-  }
-
-/* <div class="section__background"> */
-.about__subtitle {
+}
+.introduction__subtitle {
     color: white;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 10px;
@@ -84,45 +80,38 @@
     width: auto;  
     align-self: flex-end;
 }
-
-.about__text{
+.introduction__text{
     margin-left: 20px;
     margin-right: 20px;
 }
-/* </section classs="section__top"> */
+/* </section> Introduction */
 
-/* <section class="section__about">
-/* <h1 class="section__title"> */
-.section__title {
-    display: flex;
-    justify-content: center;
-}
-
-/* <p class="section__paragraph"> */
-
-
-.section {
+/* <section > About */
+.about {
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
 }
+.about__title {
+    display: flex;
+    justify-content: center;
+}
+/* </section > About */
 
-.section__foods {
+/* <section> top-foods */
+.top-foods {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
     grid-gap: 10px;
     align-items: center;
     padding: 0px;
 }
-
-.section__food {
-    list-style: none;
-    
+.top-foods__items {
+    list-style: none; 
     height: 200px;
     background-color: green;
 }
-
-
+/* </section> top-foods */
 
 /* Media queries */
 /* Rule for screens max 1200px: */
