@@ -55,21 +55,13 @@
 .introduction__image {
     display: flex;
     justify-content: center;
-    background: url(../images/beefstew.jpg) no-repeat center;
+    background: url(../images/beef-stew.jpg) no-repeat center;
     background-size: cover;
     height: 200px;
     width: auto;
     animation: zoomImage 2.6s ease-in-out forwards;
     border-radius: 20px;
     
-}
-@keyframes zoomImage {
-    0% {
-      background-size: 120%;
-    }
-    100% {
-      background-size: 100%;
-    }
 }
 .introduction__subtitle {
     color: white;
@@ -115,19 +107,23 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
-    grid-gap: 10px;
+    grid-gap: 10% 20%;
     align-items: center;
     padding: 0px;
 }
 .top-foods__item {
-    display: flex;
     justify-content: center;
     align-items: flex-end;
     list-style: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s;
     height: 200px;
-    border-radius: 20px;
+    width: 200px;
+    border-radius: 24px;
     
+}
+.top-foods__item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
 .top-foods__subtitle {
     position: absolute;
@@ -140,19 +136,32 @@
     text-align: center;
     font-weight: bold;
     font-size: large;
+    
 }
+
 .top-foods__figure {
     position: relative;
     margin: auto;
+    
 }
 .top-foods__photo {
     object-fit: cover;
     width: 100%;
     height: 200px;
     border-radius: 20px;
+    
 }
+
 /* </section> top-foods */
 
+@keyframes zoomImage {
+    0% {
+      background-size: 120%;
+    }
+    100% {
+      background-size: 100%;
+    }
+}
 
 /* Media queries */
 /* Rule for screens max 1200px: */
