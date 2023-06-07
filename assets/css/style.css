@@ -6,16 +6,25 @@
     font-family: "Lato", sans-serif;
 }
 
+body {
+    background-color: #FAECD6;
+}
+
 /* <header> */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.03);
-    border-radius: 20px;
+    background-color: #F0B669;
+    border-radius: 0px 0px 0px 0px;
+    margin: -10px -10px 10px -10px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .header__logo {
     display: flex;
+    
 }
 .header__link{
     text-decoration: none;
@@ -24,7 +33,7 @@
     align-items: center;
 }
 .header__link:hover {
-    color: red;
+    color: #724948;
 }
 .header__image {
     width: 100px;
@@ -43,12 +52,20 @@
 }
 .header__item {
     display: inline-block;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0px 1px;
+    font-weight: bold;
+    
+}
+.header__item--last {
+    margin-right: 20px;
+}
+.header__item--selected {
+    color: #724948;
+}
 
-}
-.header__item:hover {
-    color: red;
-}
 /* </header> */
 
 /* <section > Introduction */
@@ -95,7 +112,7 @@
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: #F2DEBA;
     border-radius: 20px;
     padding: 10px;
 }
