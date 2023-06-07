@@ -8,6 +8,8 @@
 
 body {
     background-color: #FAECD6;
+    margin: 0;
+    padding: 0;
 }
 
 /* <header> */
@@ -185,6 +187,33 @@ body {
     transform-origin: center center; /* Set the transform origin to the center */
     
 }
+
+/* <footer> */
+.footer {
+    display: flex;
+    justify-self: flex-end;
+    background-color: #F0B669;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px
+    
+}
+.footer__social-medias {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer__social-media {
+    
+    font-size: x-large;
+    
+}
+.footer__link {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+
 
 /* </section> top-foods */
 
