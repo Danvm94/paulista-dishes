@@ -64,7 +64,7 @@ body {
 .header__image {
     width: 100px;
     height: 100px;
-    padding: 0px 5px;
+    padding: 0px 10px;
 }
 .header__title {
     padding: 10px;
@@ -127,6 +127,9 @@ body {
 .about__title {
     display: flex;
     justify-content: center;
+}
+.about__article {
+    text-align: center;
 }
 /* </section > About */
 
