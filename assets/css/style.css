@@ -6,10 +6,16 @@
     font-family: "Lato", sans-serif;
 }
 
-body {
-    background-color: #FAECD6;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAECD6;
 }
 
 /* <header> */
@@ -190,17 +196,15 @@ body {
 
 /* <footer> */
 .footer {
-    display: flex;
-    justify-self: flex-end;
-    justify-content: center;
     background-color: #F0B669;
     box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 50px
+    margin-top: 50px;
     
 }
 .footer__social-medias {
     display: flex;
     justify-self: center;
+    justify-content: center;
     list-style: none;
 }
 .footer__social-media {
@@ -212,7 +216,7 @@ body {
     text-shadow: 1px 1px black;
 }
 .footer__link {
-    
+    justify-self: end;
     text-decoration: none;
     color: inherit;
     padding: 10px;
