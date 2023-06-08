@@ -225,6 +225,19 @@ body {
     padding: 10px;
 }
 
+/* <section class="recipes"> */
+.recipes {
+    display: flex;
+    justify-content: center;
+}
+.recipes__box {
+    margin: 50px 20px 20px 20px;
+    background-color: #F2DEBA;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 1200px;
+    text-align: center;
+}
 
 
 /* </section> top-foods */
