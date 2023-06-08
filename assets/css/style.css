@@ -192,6 +192,7 @@ body {
 .footer {
     display: flex;
     justify-self: flex-end;
+    justify-content: center;
     background-color: #F0B669;
     box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 50px
@@ -199,15 +200,19 @@ body {
 }
 .footer__social-medias {
     display: flex;
-    justify-content: center;
+    justify-self: center;
     list-style: none;
 }
 .footer__social-media {
-    
-    font-size: x-large;
+    transition: text-shadow 0.3s;
+    font-size: 160%;
     
 }
+.footer__social-media:hover {
+    text-shadow: 1px 1px black;
+}
 .footer__link {
+    
     text-decoration: none;
     color: inherit;
     padding: 10px;
