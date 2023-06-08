@@ -6,13 +6,14 @@
     font-family: "Lato", sans-serif;
 }
 
-html, body {
+html {
+    height: 100%;
+}
+
+body {
     height: 100%;
     margin: 0;
     padding: 0;
-  }
-
-body {
     display: flex;
     flex-direction: column;
     background-color: #FAECD6;
@@ -25,7 +26,7 @@ body {
     align-items: center;
     background-color: #F0B669;
     border-radius: 0px 0px 0px 0px;
-    margin: -10px -10px 10px -10px;
+    margin-bottom: 10px;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -91,7 +92,9 @@ body {
 /* </header> */
 
 /* <section > Introduction */
+
 .introduction__image {
+    margin: 0px 20px;
     display: flex;
     justify-content: center;
     background: url(../images/beef-stew.jpg) no-repeat center;
@@ -119,9 +122,7 @@ body {
 
 /* <section > About */
 .about {
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px
 }
 .about__title {
     display: flex;
@@ -131,9 +132,7 @@ body {
 
 /* <section> top-foods */
 .top-foods {
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 50px 20px 20px 20px;
     background-color: #F2DEBA;
     border-radius: 20px;
     padding: 10px;
@@ -198,7 +197,8 @@ body {
 .footer {
     background-color: #F0B669;
     box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 50px;
+    margin-top: auto;
+
     
 }
 .footer__social-medias {
@@ -241,13 +241,14 @@ body {
 }
 /* Rule for screens max 950px: */
 @media screen and (max-width: 950px) {
+
 }
 /* Rule for screens max 800px: */
 @media screen and (max-width: 800px) {
     .header {
         flex-direction: column;
     }
-    .section__text-div{
+    .introduction__subtitle{
         align-self:center;
     }
 }
