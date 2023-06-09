@@ -235,7 +235,7 @@ body {
     background-color: #F2DEBA;
     border-radius: 20px;
     padding: 10px;
-    max-width: 1200px;
+    width: 100%;
     text-align: center;
 }
 
