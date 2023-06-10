@@ -156,10 +156,10 @@ body {
     justify-content: center;
     align-items: flex-end;
     list-style: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: box-shadow 0.3s;
     height: 200px;
     width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 24px;
     
 }
@@ -227,16 +227,66 @@ body {
 
 /* <section class="recipes"> */
 .recipes {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    
 }
-.recipes__box {
+.recipes__introduction {
     margin: 50px 20px 20px 20px;
     background-color: #F2DEBA;
     border-radius: 20px;
     padding: 10px;
-    width: 100%;
     text-align: center;
+}
+
+.recipes__recipe {
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #F2DEBA;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 1600px;
+}
+
+.recipes__title2 {
+    width: 100%;
+}
+
+.recipes__photo {
+    display: inline-block;
+    object-fit: cover;
+    width: 40%;
+    min-width: 400px;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+
+.recipes__ingredients {
+    display: inline-block;
+    vertical-align: top;    
+    background-color: #737C62;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.recipes__instructions {
+    display: block;
+    text-align: left;
+    background-color: #4E534A;
+    color: #FFFFFF;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -254,6 +304,9 @@ body {
 /* Media queries */
 /* Rule for screens max 1200px: */
 @media screen and (max-width: 1200px) {
+    .recipes__recipe {
+        text-align: center;
+    }
 }
 /* Rule for screens max 950px: */
 @media screen and (max-width: 950px) {
