@@ -268,20 +268,19 @@ body {
 .recipes__ingredients {
     display: inline-block;
     vertical-align: top;    
-    background-color: #737C62;
-    color: #FFFFFF;
+    text-align: left;
+    background-color: #F0B669;
     border-radius: 20px;
     padding: 10px;
     margin: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    max-width: 400px;
 
 }
 .recipes__instructions {
     display: block;
     text-align: left;
-    background-color: #4E534A;
-    color: #FFFFFF;
+    background-color: #F0B669;
     max-width: 900px;
     margin: 0 auto;
     border-radius: 20px;
