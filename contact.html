@@ -25,13 +25,50 @@
         <nav class="header__menu">
             <ul class="header__items">
                 <li class="header__item"><a href="index.html" class="header__link">Home</a></li>
-                <li class="header__item"><a href="#" class="header__link header__item--selected">Recipes</a></li>
-                <li class="header__item header__item--last"><a href="#" class="header__link">Contact</a></li>
+                <li class="header__item"><a href="recipes.html" class="header__link">Recipes</a>
+                </li>
+                <li class="header__item header__item--last"><a href="#"
+                        class="header__link  header__item--selected">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <section class="contact">
+        <div class="contact__container">
+            <h1>We are always looking for new recipes and restaurants!</h1>
+            <p>Would you like to recommend something? Please enter in contact with us using the following form:</p>
 
+            <form action="/submit_recommendation" method="post">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="location">Location (city, country):</label>
+                <br>
+                <input type="text" id="location" name="location" required><br><br>
+
+                <label for="recommendationType">Type of Recommendation (recipe/restaurant):</label>
+                <br>
+                <select id="recommendationType" name="recommendationType" required>
+                    <option value="recipe">Recipe</option>
+                    <option value="restaurant">Restaurant</option>
+                </select><br><br>
+
+                <label for="cuisineType">Cuisine Type (if restaurant):</label>
+                <br>
+                <input type="text" id="cuisineType" name="cuisineType"><br><br>
+
+                <label for="description">Brief Description:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Submit" class="contact__submit">
+            </form>
+        </div>
+    </section>
 
 
     <footer class="footer">
