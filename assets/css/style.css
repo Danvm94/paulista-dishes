@@ -387,10 +387,16 @@ body {
     }
 
     .header__link{
-        margin: 0 5px;
+        margin: 0 0;
+    }
+    .header__title{
+        padding: 0;
     }
 
     .recipes__recipe {
         text-align: center;
+    }
+    .contact__container{
+        
     }
 }

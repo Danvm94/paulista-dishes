@@ -38,32 +38,33 @@
             <h1>We are always looking for new recipes and restaurants!</h1>
             <p>Would you like to recommend something? Please enter in contact with us using the following form:</p>
 
-            <form action="/submit_recommendation" method="post">
-                <label for="name">Name:</label>
+            <form action="/submit_recommendation" method="post" class="contact__form">
+                <label for="name" class="contact__label">Name:</label>
                 <br>
                 <input type="text" id="name" name="name" required><br><br>
 
-                <label for="email">Email:</label>
+                <label for="email" class="contact__label">Email:</label>
                 <br>
                 <input type="email" id="email" name="email" required><br><br>
 
-                <label for="location">Location (city, country):</label>
+                <label for="location" class="contact__label">Location (city, country):</label>
                 <br>
                 <input type="text" id="location" name="location" required><br><br>
 
-                <label for="recommendationType">Type of Recommendation (recipe/restaurant):</label>
+                <label for="recommendationType" class="contact__label">Type of Recommendation
+                    (recipe/restaurant):</label>
                 <br>
                 <select id="recommendationType" name="recommendationType" required>
                     <option value="recipe">Recipe</option>
                     <option value="restaurant">Restaurant</option>
                 </select><br><br>
 
-                <label for="cuisineType">Cuisine Type (if restaurant):</label>
+                <label for="cuisineType" class="contact__label">Cuisine Type (if restaurant):</label>
                 <br>
                 <input type="text" id="cuisineType" name="cuisineType"><br><br>
 
-                <label for="description">Brief Description:</label><br>
-                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+                <label for="description" class="contact__label">Brief Description:</label><br>
+                <textarea id="description" name="description" rows="6" cols="40" required></textarea><br><br>
 
                 <input type="submit" value="Submit" class="contact__submit">
             </form>
