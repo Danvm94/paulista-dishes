@@ -304,10 +304,12 @@ body {
 @media screen and (max-width: 1200px) {
     .recipes__photo {
         margin: 20px 20px;
+        width: 80%;
     
     }
     .recipes__ingredients {
         padding: 10px;
+        width: 80%;
     }
 
     .recipes__recipe {
@@ -322,18 +324,12 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center;
         
     }
 
     .recipes__instructions {
-        text-align: center;
         width: 80%;
         padding: 10px;
-    }
-
-    .recipes__recipe {
-        text-align: center;
     }
     
 }
@@ -343,6 +339,10 @@ body {
 }
 /* Rule for screens max 800px: */
 @media screen and (max-width: 800px) {
+    .recipes__ingredients-list{
+        list-style: none;
+    }
+
     .header {
         flex-direction: column;
     }
@@ -352,5 +352,9 @@ body {
 
     .header__link{
         margin: 0 5px;
+    }
+
+    .recipes__recipe {
+        text-align: center;
     }
 }
