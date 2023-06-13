@@ -356,14 +356,33 @@ body {
     width: 90%;
     text-align: center;
   }
+  .recipes__video {
+    width: 600px;
+    height: 400px;
+    margin: 0px;
+    border-radius: 20px;
+  }
 }
 /* Rule for screens max 950px: */
 @media screen and (max-width: 950px) {
+  .recipes__video {
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+    border-radius: 20px;
+  }
 }
 /* Rule for screens max 800px: */
 @media screen and (max-width: 800px) {
   .recipes__ingredients-list {
     list-style: none;
+  }
+
+  .recipes__video {
+    width: 270px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
   }
 
   .header {
