@@ -4,7 +4,7 @@
 
 This is the main website for Sao Paulo's most famous dishes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for food enthusiasts and culinary partners.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="./assets/images/readme/responsive.png"></h2>
 
 ## User Experience (UX)
 
@@ -14,22 +14,25 @@ This is the main website for Sao Paulo's most famous dishes. It is designed to b
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+    3. As a First Time Visitor, I want to find the recipes that I am looking for easily.
 
   - #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find information about coding challenges.
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-    3. As a Returning Visitor, I want to find community links.
+    1. As a Returning Visitor, I want to explore new recipes and discover fresh ideas.
+    2. As a Returning Visitor, I want to easily access my saved or favorite recipes.
+    3. As a Returning Visitor, I want to share my own recipes or recommendations with the community.
+    4. As a Returning Visitor, I want to see any updates or new content since my last visit.
 
   - #### Frequent User Goals
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    1. As a Frequent User, I want to quickly find my go-to recipes and access them easily.
+    2. As a Frequent User, I want to contribute my own variations or modifications to existing recipes.
+    3. As a Frequent User, I want to easily share recipes with friends and family.
 
 - ### Design
   - #### Colour Scheme
-    - The two main colours used are Code Insititue red, and white.
+    1. ![#faecd6](https://placehold.co/15x15/faecd6/faecd6.png) `#faecd6`: This light, creamy colour (#faecd6) is used as the background colour for the overall website. It creates a warm and inviting atmosphere and complements the food-related content.
+    2. ![#f0b669](https://placehold.co/15x15/f0b669/f0b669.png) `#f0b669`: This vibrant, golden colour (#f0b669) is used for important elements such as headers, buttons, and certain sections. It adds energy and a touch of elegance to the design, grabbing attention and guiding the user's focus.
+    3. ![#f2deba](https://placehold.co/15x15/f2deba/f2deba.png) `#f2deba`: This soft, pastel colour (#f2deba) is used as a background or accent colour for specific sections or containers. It provides a gentle contrast to the other colours and helps create visual hierarchy within the content.
   - #### Typography
     - The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
   - #### Imagery
