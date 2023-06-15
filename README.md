@@ -4,7 +4,7 @@
 
 This is the main website for Sao Paulo's most famous dishes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for food enthusiasts and culinary partners.
 
-<h2 align="center"><img src="./assets/images/readme/responsive.png"></h2>
+<h2 align="center"><img src="./readme/responsive.png"></h2>
 
 ## User Experience (UX)
 
@@ -40,11 +40,11 @@ This is the main website for Sao Paulo's most famous dishes. It is designed to b
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](./assets/images/readme/index.png)
+  - Home Page Wireframe - [View](./readme/index.png)
 
-  - Recipes Wireframe - [View](./assets/images/readme/recipes.png)
+  - Recipes Wireframe - [View](./readme/recipes.png)
 
-  - Contact Us Page Wireframe - [View](./assets/images/readme/contact.png)
+  - Contact Us Page Wireframe - [View](./readme/contact.png)
 
 ## Features
 
@@ -78,10 +78,10 @@ This is the main website for Sao Paulo's most famous dishes. It is designed to b
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3 HTML Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- [W3 HTML Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanvm94.github.io%2Fpaulista-dishes%2F)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanvm94.github.io%2Fpaulista-dishes%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Testing User Stories from User Experience (UX) Section
 
