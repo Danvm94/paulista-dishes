@@ -213,30 +213,36 @@ body {
 }
 /* End of Top Foods section */
 
+/* Footer section */
 .footer {
   background-color: #f0b669;
   box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: auto;
 }
+/* Footer social medias */
 .footer__social-medias {
   display: flex;
   justify-self: center;
   justify-content: center;
   list-style: none;
 }
+/* Footer social media */
 .footer__social-media {
-  transition: text-shadow 0.3s;
+  transition: text-shadow 0.3s; /* Apply transition effect for text shadow */
   font-size: 160%;
 }
+/* Footer social media hover effect */
 .footer__social-media:hover {
   text-shadow: 1px 1px black;
 }
+/* Footer link */
 .footer__link {
   justify-self: end;
   text-decoration: none;
   color: inherit;
   padding: 10px;
 }
+/* End of Footer section */
 
 /* <section class="recipes"> */
 .recipes {
