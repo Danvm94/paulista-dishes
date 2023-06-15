@@ -1,15 +1,15 @@
 /* Import font "Lato" from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,900&display=swap");
 
-/* Rule for everything in the page */
+/* Global styles */
 * {
   font-family: "Lato", sans-serif;
 }
-
+/* HTML styles */
 html {
   height: 100%;
 }
-
+/* Body styles */
 body {
   height: 100%;
   margin: 0;
@@ -19,7 +19,7 @@ body {
   background-color: #faecd6;
 }
 
-/* <header> */
+/* Header section */
 .header {
   display: flex;
   justify-content: space-between;
@@ -30,19 +30,23 @@ body {
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+/* Header logo */
 .header__logo {
   display: flex;
 }
+/* Home link */
 .header__home {
   text-decoration: none;
   color: inherit;
   display: flex;
   align-items: center;
-  transition: text-shadow 0.6s;
+  transition: text-shadow 0.6s; /* Apply transition effect for text shadow */
 }
+/* Home link hover effect */
 .header__home:hover {
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px black; /* Add text shadow on hover */
 }
+/* Header link */
 .header__link {
   text-decoration: none;
   color: inherit;
@@ -50,39 +54,46 @@ body {
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0px 10px;
-  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s; /* Apply transition effect for box shadow */
 }
+/* Header link hover effect */
 .header__link:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
+/* Header image */
 .header__image {
   width: 100px;
   height: 100px;
   padding: 0px 10px;
 }
+/* Header title */
 .header__title {
   padding: 10px;
 }
+/* Header menu */
 .header__menu {
   display: flex;
   align-items: center;
 }
+/* Header menu items */
 .header__items {
   list-style: none;
 }
+/* Header menu item */
 .header__item {
   display: inline-block;
 }
+/* Last menu item */
 .header__item--last {
   margin-right: 20px;
 }
+/* Selected menu item */
 .header__item--selected {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
-
-/* </header> */
+/* End of Header section */
 
 /* <section > Introduction */
 
