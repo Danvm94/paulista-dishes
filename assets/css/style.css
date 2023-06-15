@@ -313,11 +313,13 @@ body {
 }
 /* End of Recipes section */
 
+/* Contact section */
 .contact {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+/* Contact container */
 .contact__container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -326,21 +328,22 @@ body {
   padding: 10px;
   width: 1100px;
 }
+/* Contact submit button */
 .contact__submit {
   padding: 10px;
   border-radius: 5px;
   margin: 0px 10px;
-  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s; /* Add transition effect */
   background-color: #f0b669;
   margin-bottom: 10px;
   color: black;
 }
+/* Hover effect on contact submit button */
 .contact__submit:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bold;
 }
-
-/* </section> top-foods */
+/* End of Contact section */
 
 @keyframes zoomImage {
   0% {
