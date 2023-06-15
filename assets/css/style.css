@@ -132,18 +132,20 @@ body {
 }
 /* End of Introduction section */
 
-/* <section > About */
+/* About section */
 .about {
   margin: 0px 20px;
 }
+/* About title */
 .about__title {
   display: flex;
   justify-content: center;
 }
+/* About article */
 .about__article {
   text-align: center;
 }
-/* </section > About */
+/* End of About section */
 
 /* <section> top-foods */
 .top-foods {
