@@ -345,45 +345,38 @@ body {
 }
 /* End of Contact section */
 
-@keyframes zoomImage {
-  0% {
-    background-size: 120%;
-  }
-  100% {
-    background-size: 100%;
-  }
-}
-
 /* Media queries */
 /* Rule for screens max 1200px: */
 @media screen and (max-width: 1200px) {
+  /* Adjustments for recipe photos */
   .recipes__photo {
     margin: 20px 20px;
     width: 80%;
   }
+  /* Adjustments for recipe ingredients */
   .recipes__ingredients {
     padding: 10px;
     width: 80%;
   }
-
+  /* Adjustments for recipe container */
   .recipes__recipe {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
   }
-
+  /* Adjustments for recipe container */
   .recipes__container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
+  /* Adjustments for recipe instructions */
   .recipes__instructions {
     width: 80%;
     padding: 10px;
   }
-
+  /* Adjustments for contact container */
   .contact__container {
     display: flex;
     flex-direction: column;
@@ -392,6 +385,7 @@ body {
     width: 90%;
     text-align: center;
   }
+  /* Adjustments for recipe video */
   .recipes__video {
     width: 600px;
     height: 400px;
@@ -401,6 +395,7 @@ body {
 }
 /* Rule for screens max 950px: */
 @media screen and (max-width: 950px) {
+  /* Adjustments for recipe video */
   .recipes__video {
     width: 500px;
     height: 300px;
@@ -410,35 +405,38 @@ body {
 }
 /* Rule for screens max 800px: */
 @media screen and (max-width: 800px) {
+  /* Adjustments for recipe ingredients list */
   .recipes__ingredients-list {
     list-style: none;
   }
-
+  /* Adjustments for recipe video */
   .recipes__video {
     width: 270px;
     height: 150px;
     margin-bottom: 10px;
     border-radius: 20px;
   }
-
+  /* Adjustments for header */
   .header {
     flex-direction: column;
   }
+  /* Adjustments for introduction subtitle */
   .introduction__subtitle {
     font-weight: normal;
   }
-
+  /* Adjustments for introduction text */
   .introduction__text {
     margin: 0;
   }
-
+  /* Adjustments for header link */
   .header__link {
     margin: 0 0;
   }
+  /* Adjustments for header title */
   .header__title {
     padding: 0;
   }
-
+  /* Adjustments for recipe container */
   .recipes__recipe {
     text-align: center;
   }
