@@ -147,17 +147,19 @@ body {
 }
 /* End of About section */
 
-/* <section> top-foods */
+/* Top Foods section */
 .top-foods {
   margin: 50px 20px 20px 20px;
   background-color: #f2deba;
   border-radius: 20px;
   padding: 10px;
 }
+/* Top Foods title */
 .top-foods__title {
   display: flex;
   justify-content: center;
 }
+/* Top Foods items */
 .top-foods__items {
   display: grid;
   justify-content: center;
@@ -166,20 +168,23 @@ body {
   align-items: center;
   padding: 0px;
 }
+/* Top Foods item */
 .top-foods__item {
   justify-content: center;
   align-items: flex-end;
   list-style: none;
-  transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s; /* Apply transition effect for box shadow */
   height: 200px;
   width: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 24px;
 }
+/* Top Foods item hover effect */
 .top-foods__item:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
   transform: scale(1.03); /* Zoom in by 20% on hover */
 }
+/* Top Foods subtitle */
 .top-foods__subtitle {
   position: absolute;
   bottom: 3px;
@@ -192,11 +197,12 @@ body {
   font-weight: bold;
   font-size: large;
 }
-
+/* Top Foods figure */
 .top-foods__figure {
   position: relative;
   margin: auto;
 }
+/* Top Foods photo */
 .top-foods__photo {
   object-fit: cover;
   width: 100%;
@@ -205,8 +211,8 @@ body {
   transition: transform 0.3s; /* Smooth transition effect */
   transform-origin: center center; /* Set the transform origin to the center */
 }
+/* End of Top Foods section */
 
-/* <footer> */
 .footer {
   background-color: #f0b669;
   box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
