@@ -34,17 +34,17 @@ This is the main website for Sao Paulo's most famous dishes. It is designed to b
     2. ![#f0b669](https://placehold.co/15x15/f0b669/f0b669.png) `#f0b669`: This vibrant, golden colour (#f0b669) is used for important elements such as headers, buttons, and certain sections. It adds energy and a touch of elegance to the design, grabbing attention and guiding the user's focus.
     3. ![#f2deba](https://placehold.co/15x15/f2deba/f2deba.png) `#f2deba`: This soft, pastel colour (#f2deba) is used as a background or accent colour for specific sections or containers. It provides a gentle contrast to the other colours and helps create visual hierarchy within the content.
   - #### Typography
-    - The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    - The main font used for the website is "Lato", a clean and modern sans-serif typeface. It offers excellent readability, making it suitable for presenting the main content to users.
   - #### Imagery
-    - Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+    - Imagery plays a crucial role in capturing the user's attention and creating an engaging visual experience on the recipe's website. The home webpage prominently features an illustrative dish image positioned at the top. This image serves as a focal point, immediately drawing the user's attention and piquing their interest in exploring further.
 
 * ### Wireframes
 
-  - Home Page Wireframe - [View](https://github.com/)
+  - Home Page Wireframe - [View](./assets/images/readme/index.png)
 
-  - Mobile Wireframe - [View](https://github.com/)
+  - Recipes Wireframe - [View](./assets/images/readme/recipes.png)
 
-  - Contact Us Page Wireframe - [View](https://github.com/)
+  - Contact Us Page Wireframe - [View](./assets/images/readme/contact.png)
 
 ## Features
 
