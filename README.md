@@ -1,6 +1,6 @@
 <h1 align="center">Paulista Dishes Website</h1>
 
-[View the live project here.](https://danvm94.github.io/paulista-dishes/recipes.html)
+[View the live project here.](https://danvm94.github.io/paulista-dishes/)
 
 This is the main website for Sao Paulo's most famous dishes. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for food enthusiasts and culinary partners.
 
@@ -199,24 +199,26 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
-- The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+- [BEM Methodology](https://getbem.com/introduction/): BEM Methodology was used for structuring and organizing the CSS codebase, providing a modular and scalable approach to styling components.
 
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
-- [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- [CSS-Tricks](https://css-tricks.com/) : CSS-Tricks provides a comprehensive tutorial on the display: flex property, which greatly enhances understanding and ensures correctness when using flexbox layouts. You can access the tutorial by clicking [Here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Content
 
-- All content was written by the developer.
+- All the recipes were translated and adjusted according to the developer's preferences using references from [Tasty](https://tasty.co/) and [TudoGostoso](https://www.tudogostoso.com.br/).
 
 - Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
-- All Images were created by the developer.
+- [Pixabay](https://pixabay.com/): For sourcing free images, Pixabay was utilized as the image provider for this purpose to the entire website except the header logo.
+
+- [Youtube](https://youtube.com/): Recipe videos were sourced from various YouTube channels. You can identify the specific YouTube channel by referring to the top-left icon in the video or by opening the video on the YouTube platform itself.
 
 ### Acknowledgements
 
 - My Mentor for continuous helpful feedback.
 
 - Tutor support at Code Institute for their support.
+
+-
