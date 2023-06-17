@@ -89,55 +89,47 @@ The W3 HTML Validator and W3C CSS Validator Services were used to validate every
 
   1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-     1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-     2. The main points are made immediately with the hero image
-     3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+     1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a dish image with a brief description "Discover São Paulo, the vibrant metropolis renowned for its rich culinary heritage and iconic dishes.".
+     2. After the image, the user will find an "About" section that provides a description of the website's purpose.
+     3. Following the "About" section, the user will come across the final section featuring a concise overview of the top four dishes available on the website.
 
   2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
      1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-     2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-     3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+     2. In the "Top Foods" section, users can conveniently select their desired recipe, which will redirect them directly to their chosen option.
 
   3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-     1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+     1. Once the new visitor has read the "About Paulista Dishes" text, it becomes possible to gauge the initial impressions and opinions of users regarding the website.
      2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-     3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 - #### Returning Visitor Goals
 
-  1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+  1. As a returning visitor, my primary goal is to locate the recipes I enjoy and discover new recipes that are available.
 
-     1. These are clearly shown in the banner message.
-     2. They will be directed to a page with another hero image and call to action.
+     1. These are clearly shown in the "Top Foods" section.
+     2. They will be directed to a page with the recipe's instructions.
 
   2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-     1. The navigation bar clearly highlights the "Contact Us" Page.
-     2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-     3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+     1. The navigation bar clearly highlights the "Contact" Page.
+     2. Here they can fill out the form on the page.
+     3. The footer contains links to the organisations Facebook, Twitter and Instagram page.
      4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-     5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
   3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
      1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-     2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-     3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
 
 - #### Frequent User Goals
 
-  1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+  1. As a Frequent User, my primary goal is to locate the recipes I enjoy and discover new recipes that are available.
 
-     1. The user would already be comfortable with the website layout and can easily click the banner message.
+     1. These are clearly shown in the "Top Foods" section.
+     2. They will be directed to a page with the recipe's instructions.
+     3. The user, being familiar with the website layout, can effortlessly navigate through the website with ease and convenience.
 
-  2. As a Frequent User, I want to check to see if there are any new blog posts.
+  2. As a Frequent User, I want to submit recipes or restaurants sugestions.
 
-     1. The user would already be comfortable with the website layout and can easily click the blog link
-
-  3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-     1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-     2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-     3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+     1. The user can easily submit their suggestions by accessing the "Contact" page, conveniently located in the top navigation bar of the website.
 
 ### Further Testing
 
@@ -148,31 +140,34 @@ The W3 HTML Validator and W3C CSS Validator Services were used to validate every
 
 ### Known Bugs
 
-- On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-  - A white gap can be seen to the right of the footer and navigation bar as a result.
-- On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+1. Some mobile devices with extremely small screen widths may encounter issues with the webpage not fitting correctly on their screens.
+
+   1. In the top section image, the subtitle may overlap with the navigation bar, rendering it impossible to click on the navigation bar links.
+
+   2. In the "Top Foods" section, the images may exceed the width of their container, causing display problems.
+
+   3. The top navigation bar may not be able to accommodate all three links on the same line, resulting in the contact page being positioned below the home button and causing overlaps with both the home and recipes buttons.
 
 ## Deployment
-
-### GitHub Pages
-
-The project was deployed to GitHub Pages using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Danvm94/paulista-dishes)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate your forked version of the "paulista-dishes" project.
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "Pages" section.
 
 ### Making a Local Clone
 
