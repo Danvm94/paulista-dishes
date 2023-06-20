@@ -221,4 +221,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 - Tutor support at Code Institute for their support.
 
--
+- [Lucas Campos](https://github.com/luccamps): I would like to express my gratitude to Lucas Campos for his assistance and guidance. His expertise in CSS and his willingness to share his knowledge have greatly contributed to my understanding of the display:flex property.
+
+- [Douglas Melo](https://github.com/DouglasMeloo): I would like to thank Douglas Melo for conducting tests on this project. His valuable input provided an additional confirmation of the project's functionality on different hosts, beyond my own local testing.
