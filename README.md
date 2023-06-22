@@ -78,10 +78,24 @@ This is the main website for Sao Paulo's most famous dishes. It is designed to b
 
 ## Testing
 
+### Code Testing
+
 The W3 HTML Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - [W3 HTML Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanvm94.github.io%2Fpaulista-dishes%2F)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdanvm94.github.io%2Fpaulista-dishes%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Lighthouse Testing
+
+The Google Chrome built-in Lighthouse testing tool was utilized to assess the performance, accessibility, best practices and SEO aspects of the three available website pages. Below are the results obtained for each page, considering both the desktop and mobile versions.
+
+#### index.html
+
+##### Desktop
+
+<img src="./readme/index-desktop.png">
+
+- [Full Report](https://danvm94.github.io/paulista-dishes/readme/index-desktop.html)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -218,8 +232,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 - My Mentor for continuous helpful feedback.
-
-- Tutor support at Code Institute for their support.
 
 - [Lucas Campos](https://github.com/luccamps): I would like to express my gratitude to Lucas Campos for his assistance and guidance. His expertise in CSS and his willingness to share his knowledge have greatly contributed to my understanding of the display:flex property.
 
