@@ -117,6 +117,20 @@ The Google Chrome built-in Lighthouse testing tool was utilized to assess the pe
 
 - [Full Report](https://danvm94.github.io/paulista-dishes/readme/recipes-mobile.html)
 
+#### contact.html
+
+##### Desktop
+
+<img src="./readme/contact-desktop.png">
+
+- [Full Report](https://danvm94.github.io/paulista-dishes/readme/contact-desktop.html)
+
+##### Mobile
+
+<img src="./readme/recipes-mobile.png">
+
+- [Full Report](https://danvm94.github.io/paulista-dishes/readme/contact-mobile.html)
+
 ### Testing User Stories from User Experience (UX) Section
 
 - #### First Time Visitor Goals
